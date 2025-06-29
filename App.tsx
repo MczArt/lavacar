@@ -1,11 +1,11 @@
 
 import React, { useState, useMemo, useCallback, useEffect } from 'react';
-import type { Client, Service, ServiceRecord, View, Offer, User, Ticket, TicketStatus, TicketReply } from './types.ts';
-import { useData } from './hooks/useData.ts';
-import { useAuth } from './hooks/useAuth.ts';
-import { useLocalStorage } from './hooks/useLocalStorage.ts';
-import { CarWashIcon, UsersIcon, WrenchScrewdriverIcon, PlusCircleIcon, WhatsAppIcon, ArrowLeftIcon, ChartBarIcon, TagIcon, CogIcon, LogoutIcon, LockClosedIcon, QuestionMarkCircleIcon, CurrencyDollarIcon, UserGroupIcon, ChatBubbleLeftRightIcon, RocketLaunchIcon, DownloadIcon } from './components/Icons.tsx';
-import Modal from './components/Modal.tsx';
+import type { Client, Service, ServiceRecord, View, Offer, User, Ticket, TicketStatus, TicketReply } from './types';
+import { useData } from './hooks/useData';
+import { useAuth } from './hooks/useAuth';
+import { useLocalStorage } from './hooks/useLocalStorage';
+import { CarWashIcon, UsersIcon, WrenchScrewdriverIcon, PlusCircleIcon, WhatsAppIcon, ArrowLeftIcon, ChartBarIcon, TagIcon, CogIcon, LogoutIcon, LockClosedIcon, QuestionMarkCircleIcon, CurrencyDollarIcon, UserGroupIcon, ChatBubbleLeftRightIcon, RocketLaunchIcon, DownloadIcon } from './components/Icons';
+import Modal from './components/Modal';
 
 const TRIAL_PERIOD_DAYS = 5;
 
