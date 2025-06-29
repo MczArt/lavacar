@@ -1,0 +1,6 @@
+{
+  "name": "Lava Rápido Pro",
+  "description": "Um sistema completo para gerenciamento de lava rápido, com autenticação de usuário, período de teste de 5 dias, planos de assinatura, cadastro de clientes, serviços, ofertas e registro de atendimentos.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
